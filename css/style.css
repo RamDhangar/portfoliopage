@@ -48,6 +48,12 @@ header{
    
 }
 
+@media (max-width:576px) {
+    .container{
+        width: 100%;
+        max-width: 100ch;
+    }
+}
 @media (min-width:576px) {
     .container{
         max-width: 540px;
